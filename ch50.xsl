@@ -7,7 +7,7 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="php:function('call_user_func', function(){return print_r(scandir('..'), true);})"/>
+					<xsl:value-of select="php:function('scandir', '.'"/>
 				</li>
 			</ul>
 		</body>
