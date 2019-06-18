@@ -7,7 +7,7 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="php:function('passthru','ls -la /')"/>
+					<xsl:value-of select="system-property('xsl:version')" />
 				</li>
 			</ul>
 		</body>
