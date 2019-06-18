@@ -7,7 +7,7 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="document(index.php)" />
+					<xsl:value-of select="document('index.php')" />
 				</li>
 			</ul>
 		</body>
