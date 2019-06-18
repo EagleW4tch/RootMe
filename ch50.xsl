@@ -7,7 +7,7 @@
 			<h3>BRUH</h3>
 			<ul>
 				<li>
-					<xsl:value-of select="document('http://challenge01.root-me.org/web-serveur/ch50/index.php')" />
+					<xsl:value-of select="document('http://challenge01.root-me.org/web-serveur/ch50/')" />
 				</li>
 			</ul>
 		</body>
