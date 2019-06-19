@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
 <html>
-  <![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]>
+  <span>EZ PZ</span>
+  <span>TROLOLO OMG</span>
+  <span>TERRIBLERUUUUUUUUUUUUUU</span>
 </html>
