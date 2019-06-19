@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE replace [<!ELEMENT xxe SYSTEM "php://filter/read=convert.base64-encode/resource=index.php">]>
+<!DOCTYPE replace [<!ELEMENT xxe SYSTEM "DOE">]>
 <rss version="2.0">
 
 <channel>
