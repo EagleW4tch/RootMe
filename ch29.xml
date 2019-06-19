@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE replace [<!ELEMENT xxe SYSTEM "DOE">]>
+<!DOCTYPE replace [<!ENTITY xxe SYSTEM "DOE">]>
 <rss version="2.0">
 
 <channel>
