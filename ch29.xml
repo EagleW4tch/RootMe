@@ -1,5 +1,23 @@
 <html>
-  <span>EZ PZ</span>
-  <span>TROLOLO OMG</span>
-  <span>TERRIBLERUUUUUUUUUUUUUU</span>
+<body>
+	<div id="feedContent">
+    <div class="entry">
+      <h3>
+        <span>EZ PZ</span>
+      </h3>
+        <div id="feedEntryContent">trolololo</div>
+    </div>
+    <div class="entry'>
+      <h3>
+        <span>TROLOLO OMG</span>
+      </h3>
+        <div id="feedEntryContent>bruuuuuuuuuuuuuuh</div>
+    </div>
+    <div class="entry">
+    <h3>
+        <span>TERRIBLERUUUUUUUUUUUUUU</span>
+    </h3>
+      <div id="feedEntryContent>eflkjzeqfhr</div>
+  </div>
+</body>
 </html>
